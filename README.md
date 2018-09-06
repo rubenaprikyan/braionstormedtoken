@@ -36,7 +36,7 @@ const vrf = verify(token, secret);
 
 /*return decryptied token with json format or false if decryption is faild (invalid secret, invalit token and so on...) */ 
 ```
-__verify(token:String, secretKey:String)__
+__decode(token:String, secretKey:String)__
 ```js
 const dec = decode(token, secret);
 
