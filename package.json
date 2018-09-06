@@ -1,0 +1,32 @@
+{
+  "name": "brainstormedtoken",
+  "version": "0.0.1",
+  "description": "web token for user authentication for brainstorm tech :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenaprikyan/brainstormedtoken.git"
+  },
+  "keywords": [
+    "web",
+    "token",
+    "json",
+    "authentication"
+  ],
+  "author": "Ruben Aprikyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenaprikyan/brainstormedtoken/issues"
+  },
+  "homepage": "https://github.com/rubenaprikyan/brainstormedtoken#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "ms": "^2.1.1",
+    "safe-buffer": "^5.1.2"
+  },
+  "devDependencies": {}
+}
