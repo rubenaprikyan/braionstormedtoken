@@ -2,7 +2,7 @@
 
 
 ```
-$ npm install brainstormedauth
+$ npm install brainstormedtoken
 ```
 
 ### Usage
