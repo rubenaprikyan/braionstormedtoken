@@ -26,7 +26,7 @@ function generateToken(payload, expIn, secret){
     return token
 }
 
-module.exports = (payload,secretKey,expIn = "100d") => {
+module.exports = (payload,secretKey,expIn = "24h") => {
       
     var isObjectPayload = typeof payload === 'object' &&
                         !Buffer.isBuffer(payload);
