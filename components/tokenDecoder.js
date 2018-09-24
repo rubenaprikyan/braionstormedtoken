@@ -2,6 +2,7 @@
 
 const crypto = require('crypto');
 const { jsonify } = require('../lib');
+
 function decode(sign, secret){
    
   let data;
